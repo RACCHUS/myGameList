@@ -25,6 +25,11 @@ const registerLimiter = rateLimit({
     max: 3
 });
 
+const loginLimiter = rateLimit({
+    windowMSL: 60 * 60 * 1000, //60 minutes
+    max: 10
+});
+
 mongoose.set('strictQuery', false)
 
 mongoose.connect(URI, {
@@ -82,13 +87,13 @@ app.get("/login", checkNotAuthenticated, (_req, res) => {
     res.render("login.ejs")
 })
 
-app.post("/login", registerLimiter, checkNotAuthenticated, passport.authenticate("local", {
+app.post("/login", loginLimiter, checkNotAuthenticated, passport.authenticate("local", {
     successRedirect: "/",
     failureRedirect: "/login",
     failureFlash: true
 }))
 
-app.get("/register", checkNotAuthenticated, (req, res) => {
+app.get("/register", registerLimiter, checkNotAuthenticated, (req, res) => {
     res.render("register.ejs")
 })
 
