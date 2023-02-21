@@ -29,7 +29,7 @@ window.onload = function() {
       }
     });
   }
-  fetch('game.json')
+  fetch('C:/Users/richa/Desktop/myGameList/public/game.json')
     .then(response => response.json())
     .then(data => {
       for (const game of data) {

@@ -1,0 +1,112 @@
+<title>Guess the Game Genre</title>
+  <header>
+    <h1>Guess the Game Genre</h1>
+  </header>
+    <div id="game">
+      <img id="image" src="">
+      <div id="genres">
+        <button id="genre-0" onclick="checkGenre(this.innerHTML)"></button>
+        <button id="genre-1" onclick="checkGenre(this.innerHTML)"></button>
+        <button id="genre-2" onclick="checkGenre(this.innerHTML)"></button>
+        <button id="genre-3" onclick="checkGenre(this.innerHTML)"></button>
+      </div>
+    </div>
+
+<style>
+  h1{
+    margin: 0px 0px;
+    padding: 14px 16px;
+  }
+  #game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #image {
+    width: 300px;
+    height: 300px;
+  }
+  
+  #genres {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: lightgray;
+    border: none;
+    border-radius: 50px;
+  }
+  button:hover {
+    cursor: pointer;
+    background-color: gray;
+  }
+</style>
+
+<script>
+let games;
+fetch('game.json')
+  .then(response => response.json())
+  .then(data => {
+    games = data;
+    startGame();
+  })
+  .catch(error => console.error(error));
+
+let currentGame;
+
+function startGame() {
+    // Select a random game from the list of games
+    function selectRandomGame() {
+        let game = games[Math.floor(Math.random() * games.length)];
+        while (!game.image) {
+            game = games[Math.floor(Math.random() * games.length)];
+        }
+        return game;
+    }
+    // Select four random genres from the list of games
+    function selectRandomGenres(selectedGame) {
+        const genres = [selectedGame.genre];
+        while (genres.length < 4) {
+            const genre = games[Math.floor(Math.random() * games.length)].genre;
+            if (!genres.includes(genre) && genre) {
+                genres.push(genre);
+            }
+        }
+        return shuffleArray(genres);
+    }
+
+    // Render the game and the genres in the HTML
+    function renderGame() {
+        currentGame = selectRandomGame();
+        document.getElementById("image").src = `images/${currentGame.image}`;
+        const genres = selectRandomGenres(currentGame);
+        for (let i = 0; i < genres.length; i++) {
+            document.getElementById(`genre-${i}`).innerHTML = genres[i];
+        }
+    }
+
+    // Check if the selected genre is correct
+    window.checkGenre = function(selectedGenre) {
+        if (currentGame.genre === selectedGenre) {
+            alert("Correct! The genre of the game is " + currentGame.genre);
+        } else {
+            alert("Incorrect! The genre of the game is " + currentGame.genre);
+        }
+    }
+
+    // Shuffle an array
+    function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+    }
+
+    // Start the game
+    renderGame();
+}
+</script>

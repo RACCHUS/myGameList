@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>My Game List</title>
+	<meta name="desciption" content="Find, Review, and get Game Recommendations">
+	<meta name="author" content="RACCHUS">
+	<meta name="keywords" content="Gaming">
+	<meta property="og:title" content="MyGameList">
+	<meta property="og:type" content="website">
+	<meta property="og:description" content="MyGameList Homepage: Find, Review, and get Game Recommendations">
+	<!-- <meta property="og:url" content="https://pavetheworld.000webhostapp.com/"> -->
+	<meta property="article:21:46:00" content="2022-11-18">
+	<meta property="article:21:46:00" content="2022-11-18">
+	<%- include('partials/Meta') %>
+	<link rel="icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!--<link rel="stylesheet" href="sortabletable.css"> -->
+	<script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+  	<link rel="stylesheet" href="styletable.css">
+</head>
+<body>
+	<a href="/logout">Log Out</a>
+        <div class="login-menu">
+            <%- include('partials/login-menu') %>
+        </div>
+        <div class="navbar">
+            <%- include('partials/navbar') %>
+        </div>
+	<div class="container" id="main-content"></div>
+<main>
+	<title>Games</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Games</h1>
+  <table>
+    <thead>
+      <tr>
+        <th id="name">Name</th>
+        <th id="genre">Genre</th>
+        <th id="release-date">Release Date</th>
+		<th id="Total-Copies-Sold">Total Copies Sold</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% for (let i = 0; i < games.length; i++) { %>
+        <tr>
+          <td><%= games[i].name %></td>
+          <td><%= games[i].genre || 'N/A' %></td>
+          <td><%= games[i]["release date"] || 'N/A' %></td>
+		  <td><%= games[i]["Total copies sold"] || 'N/A' %></td>
+        </tr>
+      <% } %>
+    </tbody>
+  </table>
+
+  <script>
+    const getCellValue = (tr, idx) => tr.children[idx].innerText || tr.children[idx].textContent;
+
+    const comparer = (idx, asc) => (a, b) => ((v1, v2) => 
+        v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2) ? v1 - v2 : v1.toString().localeCompare(v2)
+        )(getCellValue(asc ? a : b, idx), getCellValue(asc ? b : a, idx));
+
+    document.querySelectorAll('th').forEach(th => th.addEventListener('click', (() => {
+      const table = th.closest('table');
+      Array.from(table.querySelectorAll('tr:nth-child(n+2)'))
+        .sort(comparer(Array.from(th.parentNode.children).indexOf(th), this.asc = !this.asc))
+        .forEach(tr => table.appendChild(tr) );
+    })));
+  </script>
+</main>
+</body>
+</html>

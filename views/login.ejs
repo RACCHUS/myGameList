@@ -1,23 +1,49 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Login</title>
+    <style>
+        body {
+            font-family: Verdana;
+            text-align: center;
+        }
+        h1 {
+            font-size: 22px;
+            font-weight: bold;
+        }
+        label {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        input[type="text"], input[type="password"] {
+            padding: 5px;
+            font-size: 16px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+        }
+        form {
+            display: inline-block;
+        }
+        label, input {
+            display: block;
+        }
+    </style>
 </head>
-
 <body>
     <h1>Login</h1>
-    <form action="/login" method="POST">
-        <div>
-            <label for="email">Email</label>
-            <input type="email" name="email" placeholder="Enter your email" required>
-        </div>
-        <div>
-            <label for="password">Password</label>
-            <input type="password" name="password" placeholder="Enter your password" required>
-        </div>
-        <input type="submit" value="Login">
+    <form action="/login" method="post">
+        <label for="email">Email: </label>
+        <input type="text" id="email" name="email" /><br>
+        <label for="password">Password: </label>
+        <input type="password" id="password" name="password" /><br>
+        <input type="submit" value="Login" />
     </form>
 </body>
-
 </html>

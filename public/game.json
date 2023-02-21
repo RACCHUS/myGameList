@@ -1,0 +1,1669 @@
+[
+    {
+        "id": 1,
+        "name": "Thief II: The Metal Age",
+        "genre": "Adventure, Shooter, Simulator"
+    },
+    {
+        "id": 2,
+        "name": "Thief: The Dark Project",
+        "genre": "Adventure, Simulator"
+    },
+    {
+        "id": 3,
+        "name": "Thief: Deadly Shadows",
+        "genre": "Adventure, Shooter, Simulator"
+    },
+    {
+        "id": 4,
+        "name": "Thief",
+        "genre": "Fighting"
+    },
+    {
+        "id": 5,
+        "name": "Baldur's Gate",
+        "Game": "Baldur's Gate",
+        "Total copies sold": "2 million",
+        "Series": "Baldur's Gate",
+        "Release date": "December 21, 1998",
+        "genre": "RPG",
+        "Developer(s)": "BioWare, Black Isle Studios",
+        "Publisher(s)": "Interplay Entertainment"
+    },
+    {
+        "id": 6,
+        "name": "Baldur's Gate II: Shadows of Amn",
+        "Game": "Baldur's Gate II: Shadows of Amn",
+        "Total copies sold": "2 million",
+        "Series": "Baldur's Gate",
+        "Release date": "September 21, 2000",
+        "genre": "Computer RPG",
+        "Developer(s)": "BioWare",
+        "Publisher(s)": "Interplay Entertainment"
+    },
+    {
+        "id": 7,
+        "name": "Jagged Alliance",
+        "genre": "Music"
+    },
+    {
+        "id": 8,
+        "name": "Jagged Alliance: Deadly Games",
+        "genre": "Platform"
+    },
+    {
+        "id": 9,
+        "name": "Jagged Alliance 2",
+        "genre": "Puzzle"
+    },
+    {
+        "id": 10,
+        "name": "Jade Empire: Special Edition",
+        "genre": "Racing"
+    },
+    {
+        "name": "PUBG: Battlegrounds",
+        "Total copies sold": "42 million",
+        "Series": "PUBG Universe",
+        "Release date": "December 20, 2017",
+        "genre": "Battle royale",
+        "Developer(s)": "PUBG Studios",
+        "Publisher(s)": "Krafton",
+        "peak player count": 1345000000,
+        "image": "PUBG Battlegrounds.png"
+    },
+    {
+        "name": "Minecraft",
+        "Total copies sold": "33 million",
+        "Series": "Minecraft",
+        "Release date": "November 18, 2011",
+        "genre": "Sandbox, survival",
+        "Developer(s)": "Mojang Studios",
+        "Publisher(s)": "Mojang Studios",
+        "image": "Minecraft.png"
+    },
+    {
+        "name": "Terraria",
+        "Total copies sold": "23 million",
+        "Series": "N/A",
+        "Release date": "May 16, 2011",
+        "genre": "Action-adventure",
+        "Developer(s)": "Re-Logic",
+        "Publisher(s)": "Re-Logic"
+    },
+    {
+        "name": "Diablo III",
+        "Total copies sold": "20 million",
+        "Series": "Diablo",
+        "Release date": "May 15, 2012",
+        "genre": "Action role-playing",
+        "Developer(s)": "Blizzard Entertainment",
+        "Publisher(s)": "Blizzard Entertainment"
+    },
+    {
+        "name": "Garry's Mod",
+        "Total copies sold": "20 million",
+        "Series": "N/A",
+        "Release date": "November 29, 2006",
+        "genre": "Sandbox",
+        "Developer(s)": "Facepunch Studios",
+        "Publisher(s)": "Valve"
+    },
+    {
+        "name": "World of Warcraft",
+        "Total copies sold": "14 million",
+        "Series": "Warcraft",
+        "Release date": "November 23, 2004",
+        "genre": "MMORPG",
+        "Developer(s)": "Blizzard Entertainment",
+        "Publisher(s)": "Blizzard Entertainment"
+    },
+    {
+        "name": "Stardew Valley",
+        "Total copies sold": "13 million",
+        "Series": "N/A",
+        "Release date": "February 26, 2016",
+        "genre": "Simulation, RPG",
+        "Developer(s)": "ConcernedApe",
+        "Publisher(s)": "ConcernedApe"
+    },
+    {
+        "name": "Rust",
+        "Total copies sold": "12.4 million",
+        "Series": "N/A",
+        "Release date": "February 8, 2018",
+        "genre": "Survival",
+        "Developer(s)": "Facepunch Studios",
+        "Publisher(s)": "Facepunch Studios"
+    },
+    {
+        "name": "Half-Life 2",
+        "Total copies sold": "12.3 million",
+        "Series": "Half-Life",
+        "Release date": "November 16, 2004",
+        "genre": "First-person shooter",
+        "Developer(s)": "Valve",
+        "Publisher(s)": "Valve (digital), Sierra Entertainment (retail)"
+    },
+    {
+        "name": "The Witcher 3: Wild Hunt",
+        "Total copies sold": "12 million",
+        "Series": "The Witcher",
+        "Release date": "May 19, 2015",
+        "genre": "Action role-playing",
+        "Developer(s)": "CD Projekt Red",
+        "Publisher(s)": "CD Projekt"
+    },
+    {
+        "name": "The Sims",
+        "Total copies sold": "11 million",
+        "Series": "The Sims",
+        "Release date": "February 4, 2000",
+        "genre": "Life simulation",
+        "Developer(s)": "Maxis",
+        "Publisher(s)": "Electronic Arts"
+    },
+    {
+        "name": "StarCraft",
+        "Total copies sold": "11 million",
+        "Series": "StarCraft",
+        "Release date": "March 31, 1998",
+        "genre": "Real-time strategy",
+        "Developer(s)": "Blizzard Entertainment",
+        "Publisher(s)": "Blizzard Entertainment"
+    },
+    {
+        "name": "RollerCoaster Tycoon 3",
+        "Total copies sold": "10 million",
+        "Series": "RollerCoaster Tycoon",
+        "Release date": "October 26, 2004",
+        "genre": "Construction and management simulation",
+        "Developer(s)": "Frontier Developments, Aspyr Media (macOS)",
+        "Publisher(s)": "Atari, Inc. (Windows)"
+    },
+    {
+        "name": "Fall Guys",
+        "Total copies sold": "10 million",
+        "Series": "N/A",
+        "Release date": "August 4, 2020",
+        "genre": "Battle royale",
+        "Developer(s)": "Mediatonic",
+        "Publisher(s)": "Devolver Digital"
+    },
+    {
+        "name": "Civilization V",
+        "Total copies sold": "8 million",
+        "Series": "Civilization",
+        "Release date": "40422",
+        "genre": "Turn-based strategy, 4X",
+        "Developer(s)": "Firaxis Games",
+        "Publisher(s)": "2K Games & Aspyr"
+    },
+    {
+        "name": "Cyberpunk 2077",
+        "Total copies sold": "7.67 million",
+        "Series": "N/A",
+        "Release date": "December 10, 2020",
+        "genre": "Action role-playing",
+        "Developer(s)": "CD Projekt Red",
+        "Publisher(s)": "CD Projekt"
+    },
+    {
+        "name": "The Sims 3",
+        "Total copies sold": "7 million",
+        "Series": "The Sims",
+        "Release date": "June 2, 2009",
+        "genre": "Life simulation",
+        "Developer(s)": "Maxis",
+        "Publisher(s)": "Electronic Arts"
+    },
+    {
+        "name": "Euro Truck Simulator 2",
+        "Total copies sold": "6.5 million",
+        "Series": "Truck Simulator",
+        "Release date": "October 19, 2012",
+        "genre": "Vehicle simulation",
+        "Developer(s)": "SCS Software",
+        "Publisher(s)": "SCS Software"
+    },
+    {
+        "name": "The Sims 2",
+        "Total copies sold": "6 million",
+        "Series": "The Sims",
+        "Release date": "September 14, 2004",
+        "genre": "Life simulation",
+        "Developer(s)": "Maxis",
+        "Publisher(s)": "Electronic Arts"
+    },
+    {
+        "name": "Cities: Skylines",
+        "Total copies sold": "6 million",
+        "Series": "N/A",
+        "Release date": "March 10, 2015",
+        "genre": "City-building",
+        "Developer(s)": "Colossal Order",
+        "Publisher(s)": "Paradox Interactive"
+    },
+    {
+        "name": "StarCraft II: Wings of Liberty",
+        "Total copies sold": "6 million",
+        "Series": "StarCraft",
+        "Release date": "July 27, 2010",
+        "genre": "Real-time strategy",
+        "Developer(s)": "Blizzard Entertainment",
+        "Publisher(s)": "Blizzard Entertainment"
+    },
+    {
+        "name": "Guild Wars",
+        "Total copies sold": "6 million",
+        "Series": "Guild Wars",
+        "Release date": "April 28, 2005",
+        "genre": "MMORPG",
+        "Developer(s)": "ArenaNet",
+        "Publisher(s)": "NCsoft"
+    },
+    {
+        "name": "Valheim",
+        "Total copies sold": "6 million",
+        "Series": "N/A",
+        "Release date": "February 2, 2021",
+        "genre": "Survival",
+        "Developer(s)": "Iron Gate",
+        "Publisher(s)": "Coffee Stain Publishing"
+    },
+    {
+        "name": "Myst",
+        "Total copies sold": "6 million",
+        "Series": "Myst",
+        "Release date": "September 24, 1993",
+        "genre": "Adventure, puzzle",
+        "Developer(s)": "Cyan",
+        "Publisher(s)": "Br\u00c3\u00b8derbund"
+    },
+    {
+        "name": "Last Ninja 2",
+        "Total copies sold": "5.5 million",
+        "Series": "Last Ninja",
+        "Release date": "August 29, 1988",
+        "genre": "Action-adventure",
+        "Developer(s)": "System 3",
+        "Publisher(s)": "Activision"
+    },
+    {
+        "name": "ARMA 3",
+        "Total copies sold": "5.5 million",
+        "Series": "ARMA",
+        "Release date": "September 12, 2013",
+        "genre": "Tactical shooter",
+        "Developer(s)": "Bohemia Interactive",
+        "Publisher(s)": "Bohemia Interactive"
+    },
+    {
+        "name": "The Forest",
+        "Total copies sold": "5.3 million",
+        "Series": "N/A",
+        "Release date": "April 30, 2018",
+        "genre": "Survival",
+        "Developer(s)": "Endnight Games",
+        "Publisher(s)": "Endnight Games"
+    },
+    {
+        "name": "SimCity 3000",
+        "Total copies sold": "5 million",
+        "Series": "SimCity",
+        "Release date": "January 31, 1999",
+        "genre": "City-building",
+        "Developer(s)": "Maxis",
+        "Publisher(s)": "Electronic Arts"
+    },
+    {
+        "name": "Guild Wars 2",
+        "Total copies sold": "5 million",
+        "Series": "Guild Wars",
+        "Release date": "August 28, 2012",
+        "genre": "MMORPG",
+        "Developer(s)": "ArenaNet",
+        "Publisher(s)": "NCsoft"
+    },
+    {
+        "name": "The Last Ninja",
+        "Total copies sold": "4 million",
+        "Series": "Last Ninja",
+        "Release date": "1987",
+        "genre": "Action-adventure",
+        "Developer(s)": "System 3",
+        "Publisher(s)": "Activision"
+    },
+    {
+        "name": "Diablo II",
+        "Total copies sold": "4 million",
+        "Series": "Diablo",
+        "Release date": "June 29, 2000",
+        "genre": "Action role-playing",
+        "Developer(s)": "Blizzard North",
+        "Publisher(s)": "Blizzard Entertainment"
+    },
+    {
+        "name": "DayZ",
+        "Total copies sold": "4 million",
+        "Series": "N/A",
+        "Release date": "December 16, 2013",
+        "genre": "Survival",
+        "Developer(s)": "Bohemia Interactive",
+        "Publisher(s)": "Bohemia Interactive"
+    },
+    {
+        "name": "Where in the World Is Carmen Sandiego?",
+        "Total copies sold": "4 million",
+        "Series": "Carmen Sandiego",
+        "Release date": "June 1, 1985",
+        "genre": "Educational",
+        "Developer(s)": "Broderbund",
+        "Publisher(s)": "Broderbund"
+    },
+    {
+        "name": "Populous",
+        "Total copies sold": "4 million",
+        "Series": "Populous",
+        "Release date": "June 5, 1989",
+        "genre": "God game",
+        "Developer(s)": "Bullfrog Productions",
+        "Publisher(s)": "Electronic Arts"
+    },
+    {
+        "name": "RollerCoaster Tycoon",
+        "Total copies sold": "4 million",
+        "Series": "RollerCoaster Tycoon",
+        "Release date": "March 31, 1999",
+        "genre": "Construction and management simulation",
+        "Developer(s)": "Chris Sawyer",
+        "Publisher(s)": "MicroProse Software"
+    },
+    {
+        "name": "Warhammer 40,000: Dawn of War (including expansions)",
+        "Total copies sold": "4 million",
+        "Series": "Warhammer",
+        "Release date": "September 20, 2004",
+        "genre": "Real-time strategy",
+        "Developer(s)": "Relic Entertainment",
+        "Publisher(s)": "THQ"
+    },
+    {
+        "name": "Dark Souls",
+        "Total copies sold": "3.6 million",
+        "Series": "Dark Souls",
+        "Release date": "August 23, 2012",
+        "genre": "Action role-playing",
+        "Developer(s)": "FromSoftware",
+        "Publisher(s)": "Namco Bandai Games"
+    },
+    {
+        "name": "Dark Souls III",
+        "Total copies sold": "3.3 million",
+        "Series": "Dark Souls",
+        "Release date": "April 12, 2016",
+        "genre": "Action role-playing",
+        "Developer(s)": "FromSoftware",
+        "Publisher(s)": "Bandai Namco Entertainment"
+    },
+    {
+        "name": "Theme Park",
+        "Total copies sold": "3 million",
+        "Series": "Theme Park",
+        "Release date": "1994",
+        "genre": "Construction and management simulation",
+        "Developer(s)": "Bullfrog Productions",
+        "Publisher(s)": "Electronic Arts"
+    },
+    {
+        "name": "Command & Conquer",
+        "Total copies sold": "3 million",
+        "Series": "Command & Conquer",
+        "Release date": "August 31, 1995",
+        "genre": "Real-time strategy",
+        "Developer(s)": "Westwood Studios",
+        "Publisher(s)": "Virgin Interactive, Electronic Arts (since 1998; also freeware release)"
+    },
+    {
+        "name": "Command & Conquer: Red Alert",
+        "Total copies sold": "3 million",
+        "Series": "Command & Conquer",
+        "Release date": "October 31, 1996",
+        "genre": "Real-time strategy",
+        "Developer(s)": "Westwood Studios",
+        "Publisher(s)": "Virgin Interactive"
+    },
+    {
+        "name": "Age of Empires",
+        "Total copies sold": "3 million",
+        "Series": "Age of Empires",
+        "Release date": "October 15, 1997",
+        "genre": "Real-time strategy",
+        "Developer(s)": "Ensemble Studios",
+        "Publisher(s)": "Microsoft"
+    },
+    {
+        "name": "EverQuest",
+        "Total copies sold": "3 million",
+        "Series": "EverQuest",
+        "Release date": "March 16, 1999",
+        "genre": "MMORPG",
+        "Developer(s)": "Verant Interactive",
+        "Publisher(s)": "Sony Online Entertainment"
+    },
+    {
+        "name": "Warcraft III: Reign of Chaos",
+        "Total copies sold": "3 million",
+        "Series": "Warcraft",
+        "Release date": "July 3, 2002",
+        "genre": "Real-time strategy",
+        "Developer(s)": "Blizzard Entertainment",
+        "Publisher(s)": "Blizzard Entertainment (North America), Sierra Entertainment (Europe), Capcom (Japan)"
+    },
+    {
+        "name": "Civilization IV",
+        "Total copies sold": "3 million",
+        "Series": "Civilization",
+        "Release date": "October 25, 2005",
+        "genre": "Turn-based strategy, 4X",
+        "Developer(s)": "Firaxis Games",
+        "Publisher(s)": "2K Games & Aspyr"
+    },
+    {
+        "name": "Crysis",
+        "Total copies sold": "3 million",
+        "Series": "Crysis",
+        "Release date": "November 13, 2007",
+        "genre": "First-person shooter",
+        "Developer(s)": "Crytek",
+        "Publisher(s)": "Electronic Arts"
+    },
+    {
+        "name": "The Binding of Isaac",
+        "Total copies sold": "3 million",
+        "Series": "N/A",
+        "Release date": "September 28, 2011",
+        "genre": "Action-adventure, roguelike",
+        "Developer(s)": "Edmund McMillen & Florian Himsl",
+        "Publisher(s)": "Headup Games"
+    },
+    {
+        "name": "Dark Souls II",
+        "Total copies sold": "2.7 million",
+        "Series": "Dark Souls",
+        "Release date": "April 24, 2014",
+        "genre": "Action role-playing",
+        "Developer(s)": "FromSoftware",
+        "Publisher(s)": "Bandai Namco Games"
+    },
+    {
+        "name": "Lords of the Realm II",
+        "Total copies sold": "2.5 million",
+        "Series": "Lord of the Realm",
+        "Release date": "October 31, 1996",
+        "genre": "Turn-based strategy",
+        "Developer(s)": "Impressions Game",
+        "Publisher(s)": "Impressions Game"
+    },
+    {
+        "name": "Caesar II",
+        "Total copies sold": "2.5 million",
+        "Series": "Caesar",
+        "Release date": "September 4, 1995",
+        "genre": "City-building game",
+        "Developer(s)": "Impressions Game",
+        "Publisher(s)": "Sierra On-Line"
+    },
+    {
+        "name": "Caesar III",
+        "Total copies sold": "2.5 million",
+        "Series": "Caesar",
+        "Release date": "May 30, 1999",
+        "genre": "City-building game",
+        "Developer(s)": "Impressions Game",
+        "Publisher(s)": "Sierra Studios"
+    },
+    {
+        "name": "Factorio",
+        "Total copies sold": "2.5 million",
+        "Series": "N/A",
+        "Release date": "42401",
+        "genre": "Construction and management simulation",
+        "Developer(s)": "Wube Software",
+        "Publisher(s)": "Wube Software"
+    },
+    {
+        "name": "Horizon Zero Dawn",
+        "Total copies sold": "2.39 million",
+        "Series": "N/A",
+        "Release date": "August 7, 2020",
+        "genre": "Action role-playing",
+        "Developer(s)": "Guerrilla Games",
+        "Publisher(s)": "Sony Interactive Entertainment"
+    },
+    {
+        "name": "Final Fantasy VII",
+        "Total copies sold": "2.1 million",
+        "Series": "Final Fantasy",
+        "Release date": "June 25, 1998",
+        "genre": "RPG",
+        "Developer(s)": "Square",
+        "Publisher(s)": "Eidos Interactive"
+    },
+    {
+        "name": "Grand Theft Auto V",
+        "Total copies sold": "2 million",
+        "Series": "Grand Theft Auto",
+        "Release date": "April 14, 2015",
+        "genre": "Action-adventure",
+        "Developer(s)": "Rockstar North",
+        "Publisher(s)": "Rockstar Games"
+    },
+    {
+        "name": "Doom",
+        "Total copies sold": "2 million",
+        "Series": "Doom",
+        "Release date": "December 10, 1993",
+        "genre": "First-person shooter",
+        "Developer(s)": "id Software",
+        "Publisher(s)": "id Software"
+    },
+    {
+        "name": "Doom II: Hell on Earth",
+        "Total copies sold": "2 million",
+        "Series": "Doom",
+        "Release date": "September 30, 1994",
+        "genre": "First-person shooter",
+        "Developer(s)": "id Software",
+        "Publisher(s)": "GT Interactive"
+    },
+    {
+        "name": "Warcraft II: Tides of Darkness",
+        "Total copies sold": "2 million",
+        "Series": "Warcraft",
+        "Release date": "December 9, 1995",
+        "genre": "Real-time strategy",
+        "Developer(s)": "Blizzard Entertainment",
+        "Publisher(s)": "Blizzard Entertainment"
+    },
+    {
+        "name": "Diablo",
+        "Total copies sold": "2 million",
+        "Series": "Diablo",
+        "Release date": "December 31, 1996",
+        "genre": "Action role-playing",
+        "Developer(s)": "Blizzard North",
+        "Publisher(s)": "Blizzard Entertainment (North America), Ubisoft (Europe)"
+    },
+    {
+        "name": "POD",
+        "Total copies sold": "2 million",
+        "Series": "POD",
+        "Release date": "February 28, 1997",
+        "genre": "Racing game",
+        "Developer(s)": "Ubisoft",
+        "Publisher(s)": "Ubisoft"
+    },
+    {
+        "name": "Anno 1602",
+        "Total copies sold": "2 million",
+        "Series": "Anno",
+        "Release date": "September 24, 1998",
+        "genre": "City-building",
+        "Developer(s)": "Max Design",
+        "Publisher(s)": "Sunflowers"
+    },
+    {
+        "name": "Age of Empires II: The Age of Kings",
+        "Total copies sold": "2 million",
+        "Series": "Age of Empires",
+        "Release date": "September 30, 1999",
+        "genre": "Real-time strategy",
+        "Developer(s)": "Ensemble Studios",
+        "Publisher(s)": "Microsoft"
+    },
+    {
+        "name": "Black & White",
+        "Total copies sold": "2 million",
+        "Series": "Black & White",
+        "Release date": "March 25, 2001",
+        "genre": "God game",
+        "Developer(s)": "Lionhead Studios",
+        "Publisher(s)": "EA Games, Sold-Out Software, Infogrames"
+    },
+    {
+        "name": "Civilization III",
+        "Total copies sold": "2 million",
+        "Series": "Civilization",
+        "Release date": "October 30, 2001",
+        "genre": "Turn-based strategy, 4X",
+        "Developer(s)": "Firaxis Games",
+        "Publisher(s)": "Firaxis Games"
+    },
+    {
+        "name": "Neverwinter Nights",
+        "Total copies sold": "2 million",
+        "Series": "Neverwinter Nights",
+        "Release date": "June 18, 2002",
+        "genre": "RPG",
+        "Developer(s)": "BioWare",
+        "Publisher(s)": "Infogrames / Atari"
+    },
+    {
+        "name": "Stronghold: Crusader",
+        "Total copies sold": "2 million",
+        "Series": "Stronghold",
+        "Release date": "July 31, 2002",
+        "genre": "Real-time strategy",
+        "Developer(s)": "Firefly Studios",
+        "Publisher(s)": "Take-Two Interactive / Gathering of Developers"
+    },
+    {
+        "name": "Mafia: The City of Lost Heaven",
+        "Total copies sold": "2 million",
+        "Series": "Mafia",
+        "Release date": "August 28, 2002",
+        "genre": "Third-person shooter",
+        "Developer(s)": "Illusion Softworks",
+        "Publisher(s)": "Gathering of Developers"
+    },
+    {
+        "name": "Battlefield 1942",
+        "Total copies sold": "2 million",
+        "Series": "Battlefield",
+        "Release date": "September 10, 2002",
+        "genre": "First-person shooter",
+        "Developer(s)": "EA DICE",
+        "Publisher(s)": "Electronic Arts"
+    },
+    {
+        "name": "SimCity 4",
+        "Total copies sold": "2 million",
+        "Series": "SimCity",
+        "Release date": "January 14, 2003",
+        "genre": "City-building",
+        "Developer(s)": "Maxis",
+        "Publisher(s)": "Electronic Arts (Windows), Aspyr Media (macOS)"
+    },
+    {
+        "name": "Anno 1503",
+        "Total copies sold": "2 million",
+        "Series": "Anno",
+        "Release date": "March 23, 2003",
+        "genre": "City-building",
+        "Developer(s)": "Max Design",
+        "Publisher(s)": "Sunflowers"
+    },
+    {
+        "name": "Counter-Strike: Condition Zero",
+        "Total copies sold": "2 million",
+        "Series": "Counter-Strike",
+        "Release date": "March 23, 2004",
+        "genre": "First-person shooter",
+        "Developer(s)": "Valve, Gearbox Software, Ritual Entertainment, Turtle Rock Studios",
+        "Publisher(s)": "Valve (digital), Sierra Entertainment (retail)"
+    },
+    {
+        "name": "Counter-Strike: Source",
+        "Total copies sold": "2 million",
+        "Series": "Counter-Strike",
+        "Release date": "November 1, 2004",
+        "genre": "First-person shooter",
+        "Developer(s)": "Valve",
+        "Publisher(s)": "Electronic Arts (retail), Valve (digital)"
+    },
+    {
+        "name": "Far Cry",
+        "Total copies sold": "2 million",
+        "Series": "Far Cry",
+        "Release date": "March 23, 2004",
+        "genre": "First-person shooter",
+        "Developer(s)": "Crytek",
+        "Publisher(s)": "Ubisoft"
+    },
+    {
+        "name": "Age of Empires III",
+        "Total copies sold": "2 million",
+        "Series": "Age of Empires",
+        "Release date": "October 18, 2005",
+        "genre": "Real-time strategy",
+        "Developer(s)": "Ensemble Studios",
+        "Publisher(s)": "Microsoft"
+    },
+    {
+        "name": "Magicka",
+        "Total copies sold": "2 million",
+        "Series": "N/A",
+        "Release date": "January 25, 2011",
+        "genre": "Action-adventure",
+        "Developer(s)": "Arrowhead Game Studios",
+        "Publisher(s)": "Paradox Interactive"
+    },
+    {
+        "name": "Cossacks II: Napoleonic Wars",
+        "Total copies sold": "2 million",
+        "Series": "Cossacks",
+        "Release date": "April 15, 2005",
+        "genre": "Real-time strategy",
+        "Developer(s)": "GSC Game World",
+        "Publisher(s)": "CDV Software"
+    },
+    {
+        "name": "The Witcher",
+        "Total copies sold": "2 million",
+        "Series": "The Witcher",
+        "Release date": "October 26, 2007",
+        "genre": "Action role-playing",
+        "Developer(s)": "CD Projekt Red",
+        "Publisher(s)": "Atari, Inc"
+    },
+    {
+        "name": "The Witcher 2: Assassins of Kings",
+        "Total copies sold": "2 million",
+        "Series": "The Witcher",
+        "Release date": "May 17, 2011",
+        "genre": "Action role-playing",
+        "Developer(s)": "CD Projekt Red",
+        "Publisher(s)": "CD Projekt"
+    },
+    {
+        "name": "Spore",
+        "Total copies sold": "2 million",
+        "Series": "Spore",
+        "Release date": "September 4, 2008",
+        "genre": "God game",
+        "Developer(s)": "Maxis",
+        "Publisher(s)": "Electronic Arts"
+    },
+    {
+        "name": "SimCity",
+        "Total copies sold": "2 million",
+        "Series": "SimCity",
+        "Release date": "March 5, 2013",
+        "genre": "City-building",
+        "Developer(s)": "Electronic Arts",
+        "Publisher(s)": "Electronic Arts"
+    },
+    {
+        "name": "Space Engineers",
+        "Total copies sold": "2 million",
+        "Series": "N/A",
+        "Release date": "October 13, 2013",
+        "genre": "Simulation",
+        "Developer(s)": "Keen Software House",
+        "Publisher(s)": "Keen Software House"
+    },
+    {
+        "name": "7 Days to Die",
+        "Total copies sold": "2 million",
+        "Series": "7 Days",
+        "Release date": "June 28, 2016",
+        "genre": "Survival horror",
+        "Developer(s)": "The Fun Pimps",
+        "Publisher(s)": "The Fun Pimps"
+    },
+    {
+        "name": "Planet Coaster",
+        "Total copies sold": "2 million",
+        "Series": "N/A",
+        "Release date": "42675",
+        "genre": "Construction and management simulation",
+        "Developer(s)": "Frontier Developments",
+        "Publisher(s)": "Frontier Developments"
+    },
+    {
+        "name": "Stickfight: The Game",
+        "Total copies sold": "2 million",
+        "Series": "N/A",
+        "Release date": "September 28, 2017",
+        "genre": "Fighting",
+        "Developer(s)": "Landfall Games",
+        "Publisher(s)": "Landfall Games"
+    },
+    {
+        "name": "Metal Gear Solid V: The Phantom Pain",
+        "Total copies sold": "1.8 million",
+        "Series": "Metal Gear Solid",
+        "Release date": "September 1, 2015",
+        "genre": "Action-adventure, stealth",
+        "Developer(s)": "Kojima Productions",
+        "Publisher(s)": "Konami"
+    },
+    {
+        "name": "International Karate",
+        "Total copies sold": "1.5 million",
+        "Series": "International Karate",
+        "Release date": "31352",
+        "genre": "Fighting",
+        "Developer(s)": "System 3",
+        "Publisher(s)": "Epyx"
+    },
+    {
+        "name": "Sega Mega Drive and Genesis Classics",
+        "Total copies sold": "1.5 million",
+        "Series": "Sega Mega Drive and Genesis Classics",
+        "Release date": "June 1, 2010",
+        "genre": "Compilation",
+        "Developer(s)": "Sega",
+        "Publisher(s)": "Sega"
+    },
+    {
+        "name": "American Truck Simulator",
+        "Total copies sold": "1.5 million",
+        "Series": "Trucks Simulator",
+        "Release date": "October 19, 2012",
+        "genre": "Vehicle simulation",
+        "Developer(s)": "SCS Software",
+        "Publisher(s)": "SCS Software"
+    },
+    {
+        "name": "Stellaris",
+        "Total copies sold": "1.5 million",
+        "Series": "N/A",
+        "Release date": "May 9, 2016",
+        "genre": "RTS, 4X, Grand Strategy",
+        "Developer(s)": "Paradox Development Studio",
+        "Publisher(s)": "Paradox Interactive"
+    },
+    {
+        "name": "Half-Life",
+        "Total copies sold": "1.5 million",
+        "Series": "Half-Life",
+        "Release date": "November 19, 1998",
+        "genre": "First-person shooter",
+        "Developer(s)": "Valve",
+        "Publisher(s)": "Sierra Entertainment"
+    },
+    {
+        "name": "Ultra Street Fighter IV",
+        "Total copies sold": "1.3 million",
+        "Series": "Street Fighter",
+        "Release date": "July 2, 2009",
+        "genre": "Fighting",
+        "Developer(s)": "Capcom, Dimps",
+        "Publisher(s)": "Capcom"
+    },
+    {
+        "name": "Satisfactory",
+        "Total copies sold": "1.3 million",
+        "Series": "N/A",
+        "Release date": "March 19, 2019",
+        "genre": "Construction and management simulation",
+        "Developer(s)": "Coffee Stain Studios",
+        "Publisher(s)": "Coffee Stain Studios"
+    },
+    {
+        "name": "Resident Evil 6",
+        "Total copies sold": "1.3 million",
+        "Series": "Resident Evil",
+        "Release date": "March 21, 2013",
+        "genre": "Third-person shooter, survival horror",
+        "Developer(s)": "Capcom",
+        "Publisher(s)": "Capcom"
+    },
+    {
+        "name": "Resident Evil 4: Ultimate HD Edition",
+        "Total copies sold": "1.2 million",
+        "Series": "Resident Evil",
+        "Release date": "February 27, 2014",
+        "genre": "Third-person shooter, survival horror",
+        "Developer(s)": "Capcom",
+        "Publisher(s)": "Capcom"
+    },
+    {
+        "name": "Nier: Automata",
+        "Total copies sold": "1.2 million",
+        "Series": "Nier",
+        "Release date": "March 17, 2017",
+        "genre": "Action role-playing, hack and slash",
+        "Developer(s)": "PlatinumGames Square Enix",
+        "Publisher(s)": "Square Enix"
+    },
+    {
+        "name": "Pac-Man Championship Edition DX+",
+        "Total copies sold": "1.1 million",
+        "Series": "Pac-Man",
+        "Release date": "September 25, 2013",
+        "genre": "Maze, arcade",
+        "Developer(s)": "Namco Bandai Games, Mine Loader Software",
+        "Publisher(s)": "Namco Bandai Games"
+    },
+    {
+        "name": "Kingdom Come: Deliverance",
+        "Total copies sold": "1.1 million",
+        "Series": "N/A",
+        "Release date": "February 13, 2018",
+        "genre": "Action RPG",
+        "Developer(s)": "Warhorse Studios",
+        "Publisher(s)": "Warhorse Studios"
+    },
+    {
+        "name": "Hydlide",
+        "Total copies sold": "1 million",
+        "Series": "Hydlide",
+        "Release date": "December 13, 1984",
+        "genre": "Action role-playing",
+        "Developer(s)": "Technology and Entertainment Software",
+        "Publisher(s)": "Technology and Entertainment Software"
+    },
+    {
+        "name": "Tetris",
+        "Total copies sold": "1 million",
+        "Series": "Tetris",
+        "Release date": "32143",
+        "genre": "Puzzle",
+        "Developer(s)": "Spectrum HoloByte",
+        "Publisher(s)": "Spectrum HoloByte"
+    },
+    {
+        "name": "RoboCop",
+        "Total copies sold": "1 million",
+        "Series": "RoboCop",
+        "Release date": "32478",
+        "genre": "Beat 'em up, run-and-gun",
+        "Developer(s)": "Data East",
+        "Publisher(s)": "Data East, Ocean Software"
+    },
+    {
+        "name": "Return to Zork",
+        "Total copies sold": "1 million",
+        "Series": "Zork",
+        "Release date": "August 20, 1993",
+        "genre": "Adventure",
+        "Developer(s)": "Infocom",
+        "Publisher(s)": "Activision"
+    },
+    {
+        "name": "Star Wars: Rebel Assault",
+        "Total copies sold": "1 million",
+        "Series": "Star Wars",
+        "Release date": "34274",
+        "genre": "Rail shooter",
+        "Developer(s)": "LucasArts",
+        "Publisher(s)": "LucasArts"
+    },
+    {
+        "name": "Star Wars Galaxies",
+        "Total copies sold": "1 million",
+        "Series": "Star Wars",
+        "Release date": "June 26, 2003",
+        "genre": "MMORPG",
+        "Developer(s)": "Sony Online Entertainment",
+        "Publisher(s)": "LucasArts"
+    },
+    {
+        "name": "Wing Commander 3: Heart of the Tiger",
+        "Total copies sold": "1 million",
+        "Series": "Wing Commander",
+        "Release date": "34669",
+        "genre": "Space combat simulation",
+        "Developer(s)": "Origin Systems",
+        "Publisher(s)": "Electronic Arts"
+    },
+    {
+        "name": "Full Throttle",
+        "Total copies sold": "1 million",
+        "Series": "N/A",
+        "Release date": "April 30, 1995",
+        "genre": "Graphic adventure",
+        "Developer(s)": "LucasArts",
+        "Publisher(s)": "LucasArts"
+    },
+    {
+        "name": "Phantasmagoria",
+        "Total copies sold": "1 million",
+        "Series": "Phantasmagoria",
+        "Release date": "July 31, 1995",
+        "genre": "Interactive movie",
+        "Developer(s)": "Sierra Online",
+        "Publisher(s)": "Sierra Online"
+    },
+    {
+        "name": "Daryl F. Gates' Police Quest: SWAT",
+        "Total copies sold": "1 million",
+        "Series": "Police Quest",
+        "Release date": "September 30, 1995",
+        "genre": "Interactive movie",
+        "Developer(s)": "Sierra Online",
+        "Publisher(s)": "Sierra Online"
+    },
+    {
+        "name": "Duke Nukem 3D",
+        "Total copies sold": "1 million",
+        "Series": "Duke Nukem",
+        "Release date": "January 29, 1996",
+        "genre": "First-person shooter",
+        "Developer(s)": "3D Realms",
+        "Publisher(s)": "GT Interactive Software"
+    },
+    {
+        "name": "Civilization II",
+        "Total copies sold": "1 million",
+        "Series": "Civilization",
+        "Release date": "February 29, 1996",
+        "genre": "Turn-based strategy, 4X",
+        "Developer(s)": "MicroProse",
+        "Publisher(s)": "MicroProse"
+    },
+    {
+        "name": "Quake",
+        "Total copies sold": "1 million",
+        "Series": "Quake",
+        "Release date": "June 22, 1996",
+        "genre": "First-person shooter",
+        "Developer(s)": "id Software",
+        "Publisher(s)": "GT Interactive"
+    },
+    {
+        "name": "Quake II",
+        "Total copies sold": "1 million",
+        "Series": "Quake",
+        "Release date": "December 9, 1997",
+        "genre": "First-person shooter",
+        "Developer(s)": "id Software",
+        "Publisher(s)": "Activision"
+    },
+    {
+        "name": "Grand Prix 2",
+        "Total copies sold": "1 million",
+        "Series": "Grand Prix",
+        "Release date": "August 30, 1996",
+        "genre": "Sim racing",
+        "Developer(s)": "MicroProse",
+        "Publisher(s)": "MicroProse"
+    },
+    {
+        "name": "Total Annihilation",
+        "Total copies sold": "1 million",
+        "Series": "Total Annihilation",
+        "Release date": "September 30, 1997",
+        "genre": "Real-time strategy",
+        "Developer(s)": "Cavedog Entertainment",
+        "Publisher(s)": "GT Interactive"
+    },
+    {
+        "name": "Frogger",
+        "Total copies sold": "1 million",
+        "Series": "Frogger",
+        "Release date": "November 3, 1997",
+        "genre": "Action",
+        "Developer(s)": "SCE Cambridge Studio",
+        "Publisher(s)": "Hasbro Interactive"
+    },
+    {
+        "name": "Deer Hunter",
+        "Total copies sold": "1 million",
+        "Series": "Deer Hunter",
+        "Release date": "November 13, 1997",
+        "genre": "Sports",
+        "Developer(s)": "Sunstorm Interactive",
+        "Publisher(s)": "WizardWorks"
+    },
+    {
+        "name": "Blade Runner",
+        "Total copies sold": "1 million",
+        "Series": "N/A",
+        "Release date": "November 21, 1997",
+        "genre": "Point-and-click",
+        "Developer(s)": "Westwood Studios",
+        "Publisher(s)": "Virgin Interactive"
+    },
+    {
+        "name": "Unreal",
+        "Total copies sold": "1 million",
+        "Series": "Unreal",
+        "Release date": "May 22, 1998",
+        "genre": "First-person shooter",
+        "Developer(s)": "Epic Games, Digital Extremes",
+        "Publisher(s)": "GT Interactive"
+    },
+    {
+        "name": "Unreal Tournament",
+        "Total copies sold": "1 million",
+        "Series": "Unreal",
+        "Release date": "November 30, 1999",
+        "genre": "First-person shooter",
+        "Developer(s)": "Epic Games, Digital Extremes",
+        "Publisher(s)": "GT Interactive"
+    },
+    {
+        "name": "Commandos: Behind Enemy Lines",
+        "Total copies sold": "1 million",
+        "Series": "Commandos",
+        "Release date": "June 24, 1998",
+        "genre": "Real-time tactics",
+        "Developer(s)": "Pyro Studios",
+        "Publisher(s)": "Eidos Interactive"
+    },
+    {
+        "name": "Railroad Tycoon II",
+        "Total copies sold": "1 million",
+        "Series": "Railroad Tycoon",
+        "Release date": "November 4, 1998",
+        "genre": "Construction and management simulation",
+        "Developer(s)": "PopTop Software",
+        "Publisher(s)": "Take-Two Interactive / Gathering of Developers"
+    },
+    {
+        "name": "Hidden & Dangerous",
+        "Total copies sold": "1 million",
+        "Series": "Hidden & Dangerous",
+        "Release date": "July 29, 1999",
+        "genre": "Action",
+        "Developer(s)": "Illusion Softworks",
+        "Publisher(s)": "Take-Two Interactive"
+    },
+    {
+        "name": "Command & Conquer: Tiberian Sun",
+        "Total copies sold": "1 million",
+        "Series": "Command & Conquer",
+        "Release date": "August 27, 1999",
+        "genre": "Real-time strategy",
+        "Developer(s)": "Westwood Studios",
+        "Publisher(s)": "Electronic Arts"
+    },
+    {
+        "name": "Who Wants to Be a Millionaire?",
+        "Total copies sold": "1 million",
+        "Series": "N/A",
+        "Release date": "November 28, 1999",
+        "genre": "Trivia game",
+        "Developer(s)": "Jellyvision",
+        "Publisher(s)": "Disney Interactive Studios"
+    },
+    {
+        "name": "American McGee's Alice",
+        "Total copies sold": "1 million",
+        "Series": "Alice",
+        "Release date": "October 6, 2000",
+        "genre": "Action-adventure, platformer",
+        "Developer(s)": "Rogue Entertainment",
+        "Publisher(s)": "Electronic Arts"
+    },
+    {
+        "name": "Command & Conquer: Red Alert 2",
+        "Total copies sold": "1 million",
+        "Series": "Command & Conquer",
+        "Release date": "October 23, 2000",
+        "genre": "Real-time strategy",
+        "Developer(s)": "Westwood Pacific",
+        "Publisher(s)": "Electronic Arts"
+    },
+    {
+        "name": "Tropico",
+        "Total copies sold": "1 million",
+        "Series": "Tropico",
+        "Release date": "April 24, 2001",
+        "genre": "Construction and management simulation",
+        "Developer(s)": "PopTop Software",
+        "Publisher(s)": "Gathering of Developers"
+    },
+    {
+        "name": "Operation Flashpoint: Cold War Crisis",
+        "Total copies sold": "1 million",
+        "Series": "N/A",
+        "Release date": "June 22, 2001",
+        "genre": "Tactical shooter",
+        "Developer(s)": "Bohemia Interactive Studio",
+        "Publisher(s)": "Codemasters"
+    },
+    {
+        "name": "Runaway: A Road Adventure",
+        "Total copies sold": "1 million",
+        "Series": "Runaway",
+        "Release date": "July 6, 2001",
+        "genre": "Adventure",
+        "Developer(s)": "P\u00c3\u00a9ndulo Studios, S.L.",
+        "Publisher(s)": "Dinamic Multimedia"
+    },
+    {
+        "name": "Zoo Tycoon",
+        "Total copies sold": "1 million",
+        "Series": "Zoo Tycoon",
+        "Release date": "October 17, 2001",
+        "genre": "Business simulation",
+        "Developer(s)": "Microsoft",
+        "Publisher(s)": "Blue Fang Games"
+    },
+    {
+        "name": "Stronghold",
+        "Total copies sold": "1 million",
+        "Series": "Stronghold",
+        "Release date": "October 19, 2001",
+        "genre": "Real-time strategy",
+        "Developer(s)": "Firefly Studios",
+        "Publisher(s)": "Take-Two Interactive / Gathering of Developers"
+    },
+    {
+        "name": "Empire Earth",
+        "Total copies sold": "1 million",
+        "Series": "Empire Earth",
+        "Release date": "November 12, 2001",
+        "genre": "Real-time strategy",
+        "Developer(s)": "Stainless Steel Studios",
+        "Publisher(s)": "Sierra Entertainment"
+    },
+    {
+        "name": "Harry Potter and the Philosopher's Stone",
+        "Total copies sold": "1 million",
+        "Series": "Harry Potter",
+        "Release date": "November 15, 2001",
+        "genre": "Action-adventure",
+        "Developer(s)": "KnowWonder",
+        "Publisher(s)": "Electronic Arts"
+    },
+    {
+        "name": "Return to Castle Wolfenstein",
+        "Total copies sold": "1 million",
+        "Series": "Wolfenstein",
+        "Release date": "November 19, 2001",
+        "genre": "First-person shooter",
+        "Developer(s)": "Gray Matter Interactive, id Software",
+        "Publisher(s)": "Activision"
+    },
+    {
+        "name": "Dungeon Siege",
+        "Total copies sold": "1 million",
+        "Series": "Dungeon Siege",
+        "Release date": "April 5, 2002",
+        "genre": "RPG",
+        "Developer(s)": "Gas Powered Games",
+        "Publisher(s)": "Microsoft Game Studios"
+    },
+    {
+        "name": "Hotel Giant",
+        "Total copies sold": "1 million",
+        "Series": "N/A",
+        "Release date": "May 17, 2002",
+        "genre": "Business simulation",
+        "Developer(s)": "Enlight Software",
+        "Publisher(s)": "JoWood Productions"
+    },
+    {
+        "name": "Age of Mythology",
+        "Total copies sold": "1 million",
+        "Series": "Age of Empires",
+        "Release date": "October 30, 2002",
+        "genre": "Real-time strategy",
+        "Developer(s)": "Ensemble Studios",
+        "Publisher(s)": "Microsoft"
+    },
+    {
+        "name": "Vietcong",
+        "Total copies sold": "1 million",
+        "Series": "Vietcong",
+        "Release date": "March 26, 2003",
+        "genre": "Tactical shooter",
+        "Developer(s)": "Pterodon, Illusion Softworks",
+        "Publisher(s)": "Gathering of Developers"
+    },
+    {
+        "name": "The Legend of Sword and Fairy 3",
+        "Total copies sold": "1 million",
+        "Series": "The Legend of Sword and Fairy",
+        "Release date": "July 31, 2003",
+        "genre": "RPG",
+        "Developer(s)": "Softstar Entertainment",
+        "Publisher(s)": "Softstar Entertainment, Unistar"
+    },
+    {
+        "name": "Hidden & Dangerous 2",
+        "Total copies sold": "1 million",
+        "Series": "Hidden & Dangerous",
+        "Release date": "October 21, 2003",
+        "genre": "Action",
+        "Developer(s)": "Illusion Softworks",
+        "Publisher(s)": "Take-Two Interactive"
+    },
+    {
+        "name": "Patrician III: Rise of the Hanse",
+        "Total copies sold": "1 million",
+        "Series": "The Patrician",
+        "Release date": "October 24, 2003",
+        "genre": "Business simulation",
+        "Developer(s)": "Ascaron",
+        "Publisher(s)": "Encore"
+    },
+    {
+        "name": "Battlefield Vietnam",
+        "Total copies sold": "1 million",
+        "Series": "Battlefield",
+        "Release date": "March 14, 2004",
+        "genre": "First-person shooter",
+        "Developer(s)": "EA DICE",
+        "Publisher(s)": "Electronic Arts"
+    },
+    {
+        "name": "Sacred",
+        "Total copies sold": "1 million",
+        "Series": "Sacred",
+        "Release date": "March 23, 2004",
+        "genre": "Action role-playing",
+        "Developer(s)": "Ascaron",
+        "Publisher(s)": "Encore, Koch Media, Red Ant Enterprises"
+    },
+    {
+        "name": "Rome: Total War",
+        "Total copies sold": "1 million",
+        "Series": "Total War",
+        "Release date": "September 22, 2004",
+        "genre": "Real-time strategy",
+        "Developer(s)": "The Creative Assembly",
+        "Publisher(s)": "Activision"
+    },
+    {
+        "name": "Psychonauts",
+        "Total copies sold": "1 million",
+        "Series": "Psychonauts",
+        "Release date": "April 19, 2005",
+        "genre": "Platform",
+        "Developer(s)": "Double Fine Productions",
+        "Publisher(s)": "THQ"
+    },
+    {
+        "name": "Dungeon Lords",
+        "Total copies sold": "1 million",
+        "Series": "N/A",
+        "Release date": "May 5, 2005",
+        "genre": "RPG",
+        "Developer(s)": "Heuristic Park",
+        "Publisher(s)": "DreamCatcher Interactive"
+    },
+    {
+        "name": "Imperivm: Great Battles of Rome",
+        "Total copies sold": "1 million",
+        "Series": "N/A",
+        "Release date": "May 10, 2005",
+        "genre": "Real-time strategy",
+        "Developer(s)": "Haemimont Games",
+        "Publisher(s)": "FX Interactive"
+    },
+    {
+        "name": "Glory of the Roman Empire",
+        "Total copies sold": "1 million",
+        "Series": "N/A",
+        "Release date": "June 26, 2006",
+        "genre": "City-building game",
+        "Developer(s)": "Haemimont Games",
+        "Publisher(s)": "CDV Software"
+    },
+    {
+        "name": "Microsoft Flight Simulator X",
+        "Total copies sold": "1 million",
+        "Series": "Microsoft Flight Simulator",
+        "Release date": "October 17, 2006",
+        "genre": "Amateur flight simulation",
+        "Developer(s)": "Microsoft Game Studios",
+        "Publisher(s)": "Microsoft Game Studios"
+    },
+    {
+        "name": "Supreme Commander",
+        "Total copies sold": "1 million",
+        "Series": "Total Annihilation",
+        "Release date": "February 16, 2007",
+        "genre": "Real-time strategy",
+        "Developer(s)": "Gas Powered Games",
+        "Publisher(s)": "THQ"
+    },
+    {
+        "name": "Command & Conquer 3: Tiberium Wars",
+        "Total copies sold": "1 million",
+        "Series": "Command & Conquer",
+        "Release date": "March 28, 2007",
+        "genre": "Real-time strategy",
+        "Developer(s)": "EA Los Angeles",
+        "Publisher(s)": "Electronic Arts"
+    },
+    {
+        "name": "BioShock",
+        "Total copies sold": "1 million",
+        "Series": "BioShock",
+        "Release date": "August 21, 2007",
+        "genre": "First-person shooter",
+        "Developer(s)": "Irrational Games",
+        "Publisher(s)": "2K Games"
+    },
+    {
+        "name": "Crysis Warhead",
+        "Total copies sold": "1 million",
+        "Series": "Crysis",
+        "Release date": "September 16, 2008",
+        "genre": "First-person shooter",
+        "Developer(s)": "Crytek Budapest",
+        "Publisher(s)": "Electronic Arts"
+    },
+    {
+        "name": "Warhammer Online: Age of Reckoning",
+        "Total copies sold": "1 million",
+        "Series": "Warhammer",
+        "Release date": "September 18, 2008",
+        "genre": "MMORPG",
+        "Developer(s)": "Mythic Entertainment",
+        "Publisher(s)": "Electronic Arts"
+    },
+    {
+        "name": "Killing Floor",
+        "Total copies sold": "1 million",
+        "Series": "N/A",
+        "Release date": "May 14, 2009",
+        "genre": "First-person shooter",
+        "Developer(s)": "Tripwire Interactive",
+        "Publisher(s)": "Tripwire Interactive"
+    },
+    {
+        "name": "Resident Evil 5",
+        "Total copies sold": "1 million",
+        "Series": "Resident Evil",
+        "Release date": "September 17, 2009",
+        "genre": "Third-person shooter, survival horror",
+        "Developer(s)": "Capcom",
+        "Publisher(s)": "Capcom"
+    },
+    {
+        "name": "Machinarium",
+        "Total copies sold": "1 million",
+        "Series": "N/A",
+        "Release date": "October 16, 2009",
+        "genre": "Graphic adventure, puzzle",
+        "Developer(s)": "Amanita Design",
+        "Publisher(s)": "Amanita Design"
+    },
+    {
+        "name": "The Legend of Sword and Fairy 5",
+        "Total copies sold": "1 million",
+        "Series": "The Legend of Sword and Fairy",
+        "Release date": "July 7, 2011",
+        "genre": "RPG",
+        "Developer(s)": "Softstar",
+        "Publisher(s)": "Softstar"
+    },
+    {
+        "name": "Crusader Kings II",
+        "Total copies sold": "1 million",
+        "Series": "Crusader Kings",
+        "Release date": "February 14, 2012",
+        "genre": "Grand strategy",
+        "Developer(s)": "Paradox Development Studio",
+        "Publisher(s)": "Paradox Interactive"
+    },
+    {
+        "name": "Crusader Kings III",
+        "Total copies sold": "1 million",
+        "Series": "Crusader Kings",
+        "Release date": "44075",
+        "genre": "Grand strategy",
+        "Developer(s)": "Paradox Development Studio",
+        "Publisher(s)": "Paradox Interactive"
+    },
+    {
+        "name": "Prison Architect",
+        "Total copies sold": "1 million",
+        "Series": "N/A",
+        "Release date": "September 25, 2012",
+        "genre": "Construction and management simulation",
+        "Developer(s)": "Introversion Software",
+        "Publisher(s)": "Introversion Software"
+    },
+    {
+        "name": "StarCraft II: Heart of the Swarm",
+        "Total copies sold": "1 million",
+        "Series": "StarCraft",
+        "Release date": "March 12, 2013",
+        "genre": "Real-time strategy",
+        "Developer(s)": "Blizzard Entertainment",
+        "Publisher(s)": "Blizzard Entertainment"
+    },
+    {
+        "name": "Europa Universalis IV",
+        "Total copies sold": "1 million",
+        "Series": "Europa Universalis",
+        "Release date": "August 13, 2013",
+        "genre": "Grand strategy",
+        "Developer(s)": "Paradox Development Studio",
+        "Publisher(s)": "Paradox Interactive"
+    },
+    {
+        "name": "The Stanley Parable",
+        "Total copies sold": "1 million",
+        "Series": "N/A",
+        "Release date": "October 17, 2013",
+        "genre": "Interactive fiction",
+        "Developer(s)": "Galactic Cafe",
+        "Publisher(s)": "Galactic Cafe"
+    },
+    {
+        "name": "Just Survive",
+        "Total copies sold": "1 million",
+        "Series": "N/A",
+        "Release date": "January 15, 2015",
+        "genre": "Survival",
+        "Developer(s)": "Daybreak Game Company",
+        "Publisher(s)": "Daybreak Game Company"
+    },
+    {
+        "name": "Ark: Survival Evolved",
+        "Total copies sold": "1 million",
+        "Series": "Ark: Survival Evolved",
+        "Release date": "June 2, 2015",
+        "genre": "Action-adventure, Survival",
+        "Developer(s)": "Studio Wildcard, Instinct Games",
+        "Publisher(s)": "Studio Wildcard"
+    },
+    {
+        "name": "StarCraft II: Legacy of the Void",
+        "Total copies sold": "1 million",
+        "Series": "StarCraft",
+        "Release date": "November 10, 2015",
+        "genre": "Real-time strategy",
+        "Developer(s)": "Blizzard Entertainment",
+        "Publisher(s)": "Blizzard Entertainment"
+    },
+    {
+        "name": "Danganronpa: Trigger Happy Havoc",
+        "Total copies sold": "1 million",
+        "Series": "Danganronpa",
+        "Release date": "February 18, 2016",
+        "genre": "Visual novel, adventure",
+        "Developer(s)": "Spike Chunsoft",
+        "Publisher(s)": "Spike Chunsoft"
+    },
+    {
+        "name": "Danganronpa 2: Goodbye Despair",
+        "Total copies sold": "1 million",
+        "Series": "Danganronpa",
+        "Release date": "April 18, 2016",
+        "genre": "Visual novel, adventure",
+        "Developer(s)": "Spike Chunsoft",
+        "Publisher(s)": "Spike Chunsoft"
+    },
+    {
+        "name": "Hearts of Iron IV",
+        "Total copies sold": "1 million",
+        "Series": "Hearts of Iron",
+        "Release date": "June 6, 2016",
+        "genre": "Real-time strategy, grand strategy wargame",
+        "Developer(s)": "Paradox Development Studio",
+        "Publisher(s)": "Paradox Interactive"
+    },
+    {
+        "name": "Hollow Knight",
+        "Total copies sold": "1 million",
+        "Series": "N/A",
+        "Release date": "February 24, 2017",
+        "genre": "Metroidvania",
+        "Developer(s)": "Team Cherry",
+        "Publisher(s)": "Team Cherry"
+    },
+    {
+        "name": "Divinity: Original Sin II",
+        "Total copies sold": "1 million",
+        "Series": "Divinity",
+        "Release date": "September 14, 2017",
+        "genre": "RPG",
+        "Developer(s)": "Larian Studios",
+        "Publisher(s)": "Larian Studios"
+    },
+    {
+        "name": "Cuphead",
+        "Total copies sold": "1 million",
+        "Series": "N/A",
+        "Release date": "September 29, 2017",
+        "genre": "Run and gun",
+        "Developer(s)": "StudioMDHR",
+        "Publisher(s)": "StudioMDHR"
+    },
+    {
+        "name": "Mordhau",
+        "Total copies sold": "1 million",
+        "Series": "N/A",
+        "Release date": "April 29, 2019",
+        "genre": "Action",
+        "Developer(s)": "Triternion",
+        "Publisher(s)": "Triternion"
+    },
+    {
+        "name": "V Rising",
+        "Total copies sold": "1 million",
+        "Series": "N/A",
+        "Release date": "44698",
+        "genre": "Survival, Base building, Hack and slash",
+        "Developer(s)": "Stunlock Studios",
+        "Publisher(s)": "Stunlock Studios"
+    },
+    {
+        "name": "League of Legends",
+        "peak player count": 1345000000,
+        "genre": "MOBA, RPG, strategy",
+        "image": "League of Legends.png"
+    },
+    {
+        "name": "Crossfire",
+        "peak player count": 1000000000,
+        "genre": "Shooter",
+        "image": "Crossfire.png"
+    },
+    {
+        "name": "Dungeon Fighter Online",
+        "peak player count": 850000000,
+        "genre": "Adventure, Arcade, Hack and slash, RPG",
+        "image": "Dungeon Fighter Online.png"
+    },
+    {
+        "name": "Pac-Man Doodle",
+        "peak player count": 505000000,
+        "genre": "Arcade",
+        "image": "Pac-Man Doodle.png"
+    },
+    {
+        "name": "Candy Crush Saga",
+        "peak player count": 500000000,
+        "genre": "Arcade, Puzzle, Strategy",
+        "image": "Candy Crush Saga.png"
+    },
+    {
+        "name": "Among Us",
+        "peak player count": 500000000,
+        "genre": "Strategy",
+        "image": "Among Us.png"
+    }
+]

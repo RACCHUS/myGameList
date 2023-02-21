@@ -5,6 +5,8 @@ if (process.env.NODE_ENV !== "production") {
 //Importing libraries that we installed using npm
 const express = require("express")
 const app = express()
+const fs = require('fs');
+const path = require('path');
 const bcrypt = require("bcrypt") //importing bcrypt package
 const passport = require("passport")
 const initializePassport = require("./passport-config")
@@ -22,7 +24,7 @@ const URI = process.env.MONGODB_URI;
 
 const registerLimiter = rateLimit({
     windowMs: 60 * 60 * 1000, // 60 minutes
-    max: 3
+    max: 5
 });
 
 const loginLimiter = rateLimit({
@@ -69,6 +71,7 @@ app.use(passport.initialize())
 app.use(passport.session())
 app.use(methodOverride('_method'))
 app.use(express.static(__dirname + '/public'));
+app.use('/pages', express.static('public'));
 //app.prepare().then(() => {
 //    server.use(helmet())
 //})
@@ -78,10 +81,13 @@ app.use(cookieParser());
 //require('./routes/currency.route.js')(app);
 
 //routes
-app.get("/", (_req, res) => {
-    res.render("index.ejs")
-//        name: req.user.name
-})
+app.get('/', (req, res) => {
+  getGamesData()
+    .then(games => res.render('index.ejs', { games }))
+    .catch(err => {
+      throw err;
+    });
+});
 
 app.get("/login", checkNotAuthenticated, (_req, res) => {
     res.render("login.ejs")
@@ -121,6 +127,26 @@ app.post("/register", checkNotAuthenticated, async (req, res) => {
         res.redirect("/register")
     }
 })
+
+function getGamesData() {
+  const filePath = path.join(__dirname, 'game.json');
+  return new Promise((resolve, reject) => {
+    fs.readFile(filePath, 'utf8', (err, data) => {
+      if (err) return reject(err);
+      const games = JSON.parse(data);
+      resolve(games);
+    });
+  });
+}
+
+app.get('/games', (req, res) => {
+  getGamesData()
+    .then(games => res.render('games.ejs', { games }))
+    .catch(err => {
+      throw err;
+    });
+});
+
 app.delete("/logout", (req, res) => {
     req.logOut()
     res.redirect("/login")

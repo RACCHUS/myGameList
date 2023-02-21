@@ -1,5 +1,6 @@
 html{
     margin: 0;
+    background-color: black;
 }
 head{
     margin: 0;
@@ -12,6 +13,10 @@ body{
     margin-bottom: 0px;
     margin-left: 20vw;
     padding: 0;
+}
+#construction{
+    color: red;
+    font-weight: bold;
 }
 li.active{
     border-bottom: 3px solid red;
@@ -79,6 +84,11 @@ li.active{
 main{
     margin: 0;
     padding: 0;
+    min-height: calc(100vh - 100px); /* set minimum height to 100% of viewport height minus the height of the footer */
+}
+#demo{
+    margin: 0px 0px;
+    padding: 14px 16px;
 }
 a:link{ 
     color: inherit;
@@ -103,7 +113,7 @@ h2{
     padding: 0;
 }
 footer{
-    width: 99vw;
+    width: 100%;
     left: 0;
     position: absolute;
     overflow: hidden;
