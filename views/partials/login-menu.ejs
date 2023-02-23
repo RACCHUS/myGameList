@@ -1,28 +1,26 @@
-<ul class="login-menu">
-    <li><a href="/"><img src="/favicon.ico" class="favicon" alt="Home"></a></li>
-    <li class="login"><button id="toggle-dark-mode">Toggle Dark Mode</button>
-    <li class="login">Hide Ads</li>
-    <li class="login"><a id="register-link" href="/register">Sign Up</a></li>
-    <li class="login"><a id="login-link" href="/login">Login</a></li>
-    <li class="login"><a href="/logout">Log Out</a></li>
-</ul>
+<div class="login-menu-container"></div>
+  <ul class="login-menu">
+      <li><a href="/"><img src="/favicon.ico" class="favicon" alt="Home"></a></li>
+      <li class="login"><button id="toggle-dark-mode">Toggle Dark Mode</button>
+      <li class="login">Hide Ads</li>
+      <li class="login"><a id="register-link" href="/register">Sign Up</a></li>
+      <li class="login"><a id="login-link" href="/login">Login</a></li>
+      <li class="login"><a href="/logout">Log Out</a></li>
+  </ul>
+</div>
 
 <style>
       .dark-mode {
         background-color: black;
         color: white;
       }
-      .navbar {
+      .dark-mode2 {
+        background-color: black;
         color: black
       }
-      .nav {
-        color: black
-      }
-      h2 {
-        color: black
-      }
-      footer {
-        color: black
+      .dark-mode3 {
+        background-color: blue;
+        color: black !important;
       }
 </style>
 
@@ -52,8 +50,12 @@ function getCookie(name) {
 <script>
       const toggleButton = document.querySelector("#toggle-dark-mode");
       const body = document.querySelector("body");
+      const login = document.querySelector(".login-menu");
+      const mainHeading = document.querySelector("#main-heading");
 
       toggleButton.addEventListener("click", () => {
         body.classList.toggle("dark-mode");
+        login.classList.toggle("dark-mode2");
+        mainHeading.classList.toggle("dark-mode3");
       });
 </script>

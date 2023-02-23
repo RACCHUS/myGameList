@@ -19,70 +19,69 @@
   	<link rel="stylesheet" href="styletable.css">
 </head>
 <body>
-	<a href="/logout">Log Out</a>
-        <div class="login-menu">
-            <%- include('partials/login-menu') %>
-        </div>
-        <div class="navbar">
-            <%- include('partials/navbar') %>
-        </div>
-	<div class="container" id="main-content"></div>
-<main>
-	<title>Games</title>
-  <style>
-    table {
-      width: 100%;
-      border-collapse: collapse;
-    }
+  <%- include('partials/login-menu') %>
+  <div>
+      <img id="cut" src="Minecraft2.png">
+  </div>
+  <div class="navbar">
+      <%- include('partials/navbar') %>
+  </div>
+  <main>
+  	<title>Games</title>
+    <style>
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
 
-    th, td {
-      padding: 8px;
-      text-align: left;
-      border-bottom: 1px solid #ddd;
-    }
+      th, td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
 
-    th {
-      cursor: pointer;
-    }
-  </style>
-</head>
-<body>
-  <h1>Games</h1>
-  <table>
-    <thead>
-      <tr>
-        <th id="name">Name</th>
-        <th id="genre">Genre</th>
-        <th id="release-date">Release Date</th>
-		<th id="Total-Copies-Sold">Total Copies Sold</th>
-      </tr>
-    </thead>
-    <tbody>
-      <% for (let i = 0; i < games.length; i++) { %>
+      th {
+        cursor: pointer;
+      }
+    </style>
+    <h1>Games</h1>
+    <table>
+      <thead>
         <tr>
-          <td><%= games[i].name %></td>
-          <td><%= games[i].genre || 'N/A' %></td>
-          <td><%= games[i]["release date"] || 'N/A' %></td>
-		  <td><%= games[i]["Total copies sold"] || 'N/A' %></td>
+          <th id="name">Name</th>
+          <th id="genre">Genre</th>
+          <th id="release-date">Release Date</th>
+  		<th id="Total-Copies-Sold">Total Copies Sold</th>
         </tr>
-      <% } %>
-    </tbody>
-  </table>
+      </thead>
+      <tbody>
+        <% for (let i = 0; i < games.length; i++) { %>
+          <tr>
+            <td><%= games[i].name %></td>
+            <td><%= games[i].genre || 'N/A' %></td>
+            <td><%= games[i]["release date"] || 'N/A' %></td>
+  		  <td><%= games[i]["Total copies sold"] || 'N/A' %></td>
+          </tr>
+        <% } %>
+      </tbody>
+    </table>
+    <script>
+      const getCellValue = (tr, idx) => tr.children[idx].innerText || tr.children[idx].textContent;
 
-  <script>
-    const getCellValue = (tr, idx) => tr.children[idx].innerText || tr.children[idx].textContent;
+      const comparer = (idx, asc) => (a, b) => ((v1, v2) => 
+          v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2) ? v1 - v2 : v1.toString().localeCompare(v2)
+          )(getCellValue(asc ? a : b, idx), getCellValue(asc ? b : a, idx));
 
-    const comparer = (idx, asc) => (a, b) => ((v1, v2) => 
-        v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2) ? v1 - v2 : v1.toString().localeCompare(v2)
-        )(getCellValue(asc ? a : b, idx), getCellValue(asc ? b : a, idx));
-
-    document.querySelectorAll('th').forEach(th => th.addEventListener('click', (() => {
-      const table = th.closest('table');
-      Array.from(table.querySelectorAll('tr:nth-child(n+2)'))
-        .sort(comparer(Array.from(th.parentNode.children).indexOf(th), this.asc = !this.asc))
-        .forEach(tr => table.appendChild(tr) );
-    })));
-  </script>
-</main>
+      document.querySelectorAll('th').forEach(th => th.addEventListener('click', (() => {
+        const table = th.closest('table');
+        Array.from(table.querySelectorAll('tr:nth-child(n+2)'))
+          .sort(comparer(Array.from(th.parentNode.children).indexOf(th), this.asc = !this.asc))
+          .forEach(tr => table.appendChild(tr) );
+      })));
+    </script>
+  </main>
+  <footer>
+    <%- include('partials/footer') %>
+  </footer>
 </body>
 </html>

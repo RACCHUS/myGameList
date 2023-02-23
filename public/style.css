@@ -1,18 +1,23 @@
 html{
     margin: 0;
     background-color: black;
+    background-image: url("Minecraft.jpg");
+    background-size: cover;
+    overflow: auto;
 }
 head{
     margin: 0;
     padding: 0;
 }
 body{
+    overflow: auto;
     background-color: whitesmoke;
     margin-top: 0px;
     margin-right: 20vw;
     margin-bottom: 0px;
     margin-left: 20vw;
     padding: 0;
+    box-sizing: border-box;
 }
 #construction{
     color: red;
@@ -21,19 +26,47 @@ body{
 li.active{
     border-bottom: 3px solid red;
 }
-.login-menu{
-    list-style-type: none;
+.login-menu-container {
+    justify-content: 20vw;
+    box-sizing: content-box;
     width: 100%;
-    padding: 0;
-    background-color: whitesmoke;
+    max-width: 1200px;
+    position: absolute;
     overflow: auto;
-    margin: 0px 0px;
+    padding: 0;
+    margin: 0 auto;
+    left: 0;
+    top: 0;
+}
+.login-menu{
+    background-color: whitesmoke;
+    list-style-type: none;
+    padding: 0 20vw;
+    overflow: auto;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    left: 0;
+    top: 0;
+    z-index: 9998;
+    position: absolute;
 }
 .favicon{
     height: 35px;
     float: left;
     padding: 14px 16px;
     margin: 0;
+}
+#toggle-dark-mode{
+    float: right;
+    background-color: orangered;
+    font-family: "28 Days Later";
+    font-size: 20px;
+    padding: 0;
+    border-width: 0;
+}
+#toggle-dark-mode:hover{
+    cursor: pointer;
 }
 .login{
     float: right;
@@ -45,24 +78,37 @@ li.active{
     padding: 8px 10px;
     font-size: 20px;
     margin-top: 14px;
+    position: relative;
+}
+#cut{
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: relative;
 }
 .navbar{
     text-align: left;
     list-style-type: none;
     margin: 0px 0px;
     padding: 0;
-    background-color: lightskyblue;
+    background-color: #0000FF;
     overflow: auto;
+    color: white;
+    z-index: 9999;
+    position: relative;
 }
 .nav{
-    text-align: left;
     float: left;
+    text-align: left;
     background-color: none;
     font-family: "28 Days Later";
     display: block;
     padding: 14px 16px;
     font-size: 20px;
     margin: 0;
+    color: white;
+    z-index: 9999;
 }
 .search{
     float: right;
@@ -74,9 +120,10 @@ li.active{
     float: right;
     height: 25px;
     margin-top: 14px;
+    padding-right: 14px;
 }
 .nav:hover{
-    background-color: whitesmoke;
+    background-color: lightskyblue;
 }
 .nav.active{
     border-bottom: 3px solid red;
@@ -102,24 +149,21 @@ p{
     padding: 14px 16px;
 }
 h2{
-    background-color: lightblue;
+    background-color: lightskyblue;
     margin: 0px 0px;
     padding: 14px 16px;
     font-family: "28 Days Later";
-}
-.container{
-    background-color: whitesmoke;
-    margin: 0;
-    padding: 0;
+    color: black;
 }
 footer{
     width: 100%;
     left: 0;
     position: absolute;
-    overflow: hidden;
+    overflow: auto;
     box-sizing: border-box;
     padding: 20px;
     font-family: "Times New Roman";
     text-align: center;
-    background-color: lightskyblue;
+    background-color: #0000FF;
+    color: white;
 }

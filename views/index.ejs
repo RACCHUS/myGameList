@@ -17,20 +17,21 @@
 </head>
 <body>
 <!--   <h1>Welcome <%= typeof name !== 'undefined' ? name : '' %>!</h1> -->
-  <p id="construction" >Under Construction</p>
-      <div class="login-menu">
-          <%- include('partials/login-menu') %>
-      </div>
-      <div class="navbar">
-          <%- include('partials/navbar') %>
-      </div>
-      <!-- <div class="container" id="main-content"></div> -->
+  <!--<p id="construction" >Under Construction</p> -->
+    <%- include('partials/login-menu') %>
+    <div>
+        <img id="cut" src="Minecraft2.png">
+    </div>
+    <div class="navbar">
+        <%- include('partials/navbar') %>
+    </div>
+    <!-- <div class="container" id="main-content"></div> -->
     <main>
-        <h2>Welcome to MyGameList!</h2>
+        <h2 id="main-heading">Welcome to MyGameList!</h2>
         <script type="text/javascript" src="testscript.js"></script>
         <button onclick="myFunction();">Check Date</button>
         <p id="demo"></p>
-  <%- include('partials/game') %>
+        <%- include('partials/game') %>
     </main>
     <footer>
         <%- include('partials/footer') %>

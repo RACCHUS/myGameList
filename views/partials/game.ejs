@@ -5,10 +5,10 @@
     <div id="game">
       <img id="image" src="">
       <div id="genres">
-        <button id="genre-0" onclick="checkGenre(this.innerHTML)"></button>
-        <button id="genre-1" onclick="checkGenre(this.innerHTML)"></button>
-        <button id="genre-2" onclick="checkGenre(this.innerHTML)"></button>
-        <button id="genre-3" onclick="checkGenre(this.innerHTML)"></button>
+        <button class="game-button" id="genre-0" onclick="checkGenre(this.innerHTML)"></button>
+        <button class="game-button" id="genre-1" onclick="checkGenre(this.innerHTML)"></button>
+        <button class="game-button" id="genre-2" onclick="checkGenre(this.innerHTML)"></button>
+        <button class="game-button" id="genre-3" onclick="checkGenre(this.innerHTML)"></button>
       </div>
     </div>
 
@@ -39,7 +39,7 @@
     border: none;
     border-radius: 50px;
   }
-  button:hover {
+  .game-button:hover {
     cursor: pointer;
     background-color: gray;
   }
